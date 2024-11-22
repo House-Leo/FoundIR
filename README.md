@@ -22,7 +22,7 @@
 
 ### 🚩 **New Features/Updates**
 
-- ✅ November 22, 2024. Creat the repository.
+- ✅ November 22, 2024. Creat the repository ande the [project page](https://www.foundir.net).
 
 ### ⚡ **To do**
 - Release dataset

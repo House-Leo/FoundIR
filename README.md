@@ -22,13 +22,12 @@
 
 ### 🚩 **New Features/Updates**
 
-- ✅ December 03, 2024. Release paper on [arxiv](https://arxiv.org/abs/2412.01427).
+- ✅ December 03, 2024. Release paper on [arXiv](https://arxiv.org/abs/2412.01427).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To do**
 - Release dataset
 - Release testing code and pre-trained models
-
 
 
 <!-- ### Results

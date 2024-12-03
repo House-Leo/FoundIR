@@ -42,6 +42,9 @@
 
 **More qualitative results can be found in the [supplemental material](https://drive.google.com/file/d/1BkuClommgM5cGHEyH2zDH6KzbHNw8pTg/view?usp=sharing) (P10-P37).**
 
+### Acknowledgement
+Thank you to our team members (Hao Chen, Yinhui Fang, Jiashuo Liu, Ke Wu, Renyuan Situ) for their contributions to the data collection of this work.
+
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```

@@ -4,7 +4,7 @@
 
 ### FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=House-Leo/FoundIR)[![GitHub Stars](https://img.shields.io/github/stars/House-Leo/FoundIR?style=social)](https://github.com/House-Leo/FoundIR)
-> [[Project Page](https://www.foundir.net)]  &emsp; [[Paper]()]
+> [[Project Page](https://www.foundir.net)]  &emsp; [[Paper](https://arxiv.org/abs/2412.01427)]
 
 > [Hao Li](https://house-leo.github.io/), [Xiang Chen](https://cschenxiang.github.io/), [Jiangxin Dong](https://scholar.google.com/citations?user=ruebFVEAAAAJ&hl=zh-CN&oi=ao), [Jinhui Tang](https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN), [Jinshan Pan](https://jspan.github.io/) <br>
 > [IMAG Lab](https://imag-njust.net/), Nanjing University of Science and Technology
@@ -22,6 +22,7 @@
 
 ### 🚩 **New Features/Updates**
 
+- ✅ December 03, 2024. [Paper (arxiv)](https://arxiv.org/abs/2412.01427) is available.
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To do**

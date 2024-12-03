@@ -22,7 +22,7 @@
 
 ### 🚩 **New Features/Updates**
 
-- ✅ December 03, 2024. [Paper (arxiv)](https://arxiv.org/abs/2412.01427) is available.
+- ✅ December 03, 2024. Release paper on [arxiv](https://arxiv.org/abs/2412.01427).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To do**

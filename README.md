@@ -24,7 +24,7 @@
 - ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/1BkuClommgM5cGHEyH2zDH6KzbHNw8pTg/view?usp=sharing).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
-### ⚡ **To do**
+### ⚡ **To Do**
 - Release dataset
 - Release testing code and pre-trained models
 

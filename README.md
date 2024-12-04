@@ -42,9 +42,6 @@
 
 **More qualitative results can be found in the [supplemental material](https://drive.google.com/file/d/1BkuClommgM5cGHEyH2zDH6KzbHNw8pTg/view?usp=sharing) (P10-P37).**
 
-### Acknowledgement
-Thank you to our team members (Hao Chen, Yinhui Fang, Jiashuo Liu, Ke Wu, Renyuan Situ) for their contributions to the data collection of this work.
-
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
@@ -56,6 +53,8 @@ If this work is helpful for your research, please consider citing the following 
 }
  ```
 
+### Acknowledgement
+We would like to thank our team members (*Hao Chen, Yinghui Fang, Jiashuo Liu, Ke Wu, Renyuan Situ, ...*) for their contributions in data collection and post-processing of this work.
 
 ### Contact
 If you have any questions, please feel free to reach us out at <a href="mailto:haoli@njust.edu.cn">haoli@njust.edu.cn</a> and <a href="mailto:chenxiang@njust.edu.cn">chenxiang@njust.edu.cn</a>.

@@ -4,7 +4,7 @@
 
 ### FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=House-Leo/FoundIR)[![GitHub Stars](https://img.shields.io/github/stars/House-Leo/FoundIR?style=social)](https://github.com/House-Leo/FoundIR)
-> [[Project Page](https://www.foundir.net)]  &emsp; [[Paper](https://arxiv.org/abs/2412.01427)] &emsp; [[Supplemental Material](https://drive.google.com/file/d/1fvsZn3D0-QA3YG28XU05EZBmQeaLvRqS/view?usp=drive_link)]
+> [[Project Page](https://www.foundir.net)]  &emsp; [[Paper](https://arxiv.org/abs/2412.01427)] &emsp; [[Supplemental Material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing)]
 
 > [Hao Li*](https://house-leo.github.io/), [Xiang Chen*](https://cschenxiang.github.io/), [Jiangxin Dong](https://scholar.google.com/citations?user=ruebFVEAAAAJ&hl=zh-CN&oi=ao), [Jinhui Tang](https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN), [Jinshan Pan](https://jspan.github.io/) <br>
 > [IMAG Lab](https://imag-njust.net/), Nanjing University of Science and Technology
@@ -21,7 +21,7 @@
 ### Coming soon.
 
 ### 🚩 **New Features/Updates**
-- ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/1fvsZn3D0-QA3YG28XU05EZBmQeaLvRqS/view?usp=drive_link).
+- ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To Do**
@@ -31,7 +31,7 @@
 ### Dataset
 <img width="800" src="./assets/data_sample.png">
 
-**More samples can be found in the [supplemental material](https://drive.google.com/file/d/1fvsZn3D0-QA3YG28XU05EZBmQeaLvRqS/view?usp=drive_link) (P7-P9).**
+**More samples can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P7-P9).**
 
 ### Results
 - **Quantitative Results**
@@ -40,7 +40,7 @@
 - **Qualitative Results**
 <img width="800" src="./assets/qualitative_results.png">
 
-**More qualitative results can be found in the [supplemental material](https://drive.google.com/file/d/1fvsZn3D0-QA3YG28XU05EZBmQeaLvRqS/view?usp=drive_link) (P10-P37).**
+**More qualitative results can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P10-P37).**
 
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.

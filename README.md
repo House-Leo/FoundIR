@@ -41,10 +41,11 @@ conda env create -f environment.yml
 #### Testing
 - Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
 - Put the testset in the `./dataset` folder.
-- Run the following command to test the model on the testset (LQ).
+- Run the following command to test the model.
 ```
 bash test.sh
 ```
+**(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L99.)**
 
 ---
 ### Dataset

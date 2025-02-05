@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets --meta None

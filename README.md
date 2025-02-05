@@ -18,16 +18,35 @@
 
 ---
 
-### Coming soon.
+<!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
+- ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
 - ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To Do**
-- Release dataset
-- Release testing code and pre-trained models
+- Release training dataset
+- Release testing code and pre-trained models of the specialist models
 
+---
+
+### How to evaluate
+
+#### Environment
+```
+conda env create -f environment.yml
+```
+
+#### Testing
+- Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
+- Put the testset in the `./dataset` folder.
+- Run the following command to test the model on the testset (LQ).
+```
+bash test.sh
+```
+
+---
 ### Dataset
 <img width="800" src="./assets/data_sample.png">
 

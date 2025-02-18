@@ -41,7 +41,30 @@ conda env create -f environment.yml
 
 #### Testing the Generalist Model
 - Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
-- **For our testset**, put the LQ images in the `./dataset/LQ` folder and the GT images in the `./dataset/GT` folder.
+- **For our testset**, download the [testset](#testset--visual-results) and organize them as follows:
+
+```
+    |--dataset   
+    |    |--01Blur
+    |    |    |--GT
+    |    |    |    |--0001.png
+    |    |    |    |--0002.png
+    |    |    |    |...
+    |    |    |--LQ
+    |    |    |    |--0001.png
+    |    |    |    |--0002.png
+    |    |    |    |...
+    |    |--02Blur_Noise
+    |    |    |--GT
+    |    |    |    |--0151.png
+    |    |    |    |--0152.png
+    |    |    |    |...
+    |    |    |--LQ
+    |    |    |    |--0151.png
+    |    |    |    |--0152.png
+    |    |    |    |...
+    |    | ...
+```
 - Run the following command to test the generalist model.
 ```
 python test.py --dataroot ./dataset --meta ./Testset_meta_info.txt

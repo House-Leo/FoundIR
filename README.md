@@ -41,7 +41,11 @@ conda env create -f environment.yml
 
 #### Testing the Generalist Model
 - Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
-- **For our testset**, download the [testset](#testset--visual-results) and organize them as follows:
+
+<details open>
+<summary><b>For our testset:</b></summary>
+
+- download the [testset](#testset--visual-results) and organize them as follows:
 
 ```
     |--dataset   
@@ -69,7 +73,13 @@ conda env create -f environment.yml
 ```
 python test.py --dataroot ./dataset --meta ./Testset_meta_info.txt
 ```
-- **For your own data**, put the testset in the `./dataset/LQ` folder (simply copy the LQ folder and rename it `GT` if you don't have GT images.).
+</details>
+
+<details close>
+
+<summary><b>For your own data:</b></summary>
+
+- Put the testset in the `./dataset/LQ` folder (simply copy the LQ folder and rename it `GT` if you don't have GT images.).
 - Recomment L40-L44 in `test.py` to test your own data.
 ```
 ## For our testset
@@ -82,6 +92,9 @@ dataset = CombinedDataset(opt, image_size, augment_flip=False, equalizeHist=True
 ```
 python test.py --dataroot ./dataset --meta None
 ```
+
+</details>
+
 **(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L99.)**
 
 #### Testing the Specialist Models (Optional)

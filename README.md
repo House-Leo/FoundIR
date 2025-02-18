@@ -21,34 +21,74 @@
 <!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
-- ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
+- ✅ February 18, 2025. Release the testing code and pre-trained models of the specialist models, the testset (GT) on [Google Drive (GT)](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing), and the visual results on [Google Drive (FoundIR)](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing) and [Baidu Yun (Others)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).
+- ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive (LQ)](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
 - ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing).
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To Do**
 - Release training dataset
-- Release testing code and pre-trained models of the specialist models
+<!-- - Release testing code and pre-trained models of the specialist models -->
 
 ---
 
-### How to evaluate
+### Evaluation
 
 #### Environment
 ```
 conda env create -f environment.yml
 ```
 
-#### Testing
+#### Testing the Generalist Model
 - Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
 - Put the testset in the `./dataset` folder.
-- Run the following command to test the model.
+- Run the following command to test the generalist model.
 ```
 bash test.sh
 ```
 **(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L99.)**
 
+#### Testing the Specialist Models (Optional)
+We provide two specialist models, i.e., **Lowlight** and **Weather** models, to refine the results of the generalist model. 
+
+In our experiments, we refine the generalist model's outputs as follows: 
+```
+Weather model: 0501-0700 and 1051-1100 inputs
+Lowlight model: 0701-0800, 1101-1250, and 1301-1500 inputs 
+```
+
+**Please note that this is optional**, allowing you to further refine the generalist model’s outputs using the following commands, especially for challenging **lowlight, hazy, and rainy** inputs.
+
+- Install the environment.
+```
+cd ./specialist_model
+pip install -r requirements.txt
+python setup.py develop
+```
+- Put the testset in the `./dataset` folder.
+- Run the following command to test the specialist models.
+```
+python inference_lowlight.py
+or
+python inference_weather.py
+```
+And you can find the output visual results in the folder `results/`.
+
 ---
 ### Dataset
+
+#### Testset & Visual Results
+
+|Methods|GT|LQ|FoundIR|
+|:-|:-:|:-:|:-:|
+|Download Link|[Google Drive](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing)|
+
+**The visual results of other compared methods can be found in [Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).**
+
+#### Training Set
+
+**Comming soon.**
+
 <img width="800" src="./assets/data_sample.png">
 
 **More samples can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P7-P9).**

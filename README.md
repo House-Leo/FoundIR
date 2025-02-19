@@ -32,14 +32,14 @@
 
 ---
 
-### Evaluation
+### :computer: Evaluation
 
-#### Environment
+#### :arrow_right: Environment
 ```
 conda env create -f environment.yml
 ```
 
-#### Testing the Generalist Model
+#### :arrow_right: Testing the Generalist Model
 - Download the [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) and put it in the `./premodel` folder.
 
 <details open>
@@ -95,9 +95,9 @@ python test.py --dataroot ./dataset --meta None
 
 </details>
 
-**(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L99.)**
+**(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L102.)**
 
-#### Testing the Specialist Models (Optional)
+#### :arrow_right: Testing the Specialist Models (Optional)
 We provide two specialist models, i.e., **Lowlight** and **Weather** models, to refine the results of the generalist model. 
 
 In our experiments, we refine the generalist model's outputs as follows: 
@@ -124,7 +124,7 @@ python inference_weather.py
 And you can find the output visual results in the folder `results/`.
 
 ---
-### Dataset
+### :book: Dataset
 
 #### Testset & Visual Results
 

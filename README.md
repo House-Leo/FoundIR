@@ -21,6 +21,7 @@
 <!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
+- ✅ May 13, 2025. Update the script for calculating the metrics, including PSNR, SSIM, LPIPS, FID, CLIP-IQA, MANIQA, MUSIQ, NIQE, NIMA. Thanks to the awesome [pyiqa](https://github.com/chaofengc/IQA-PyTorch).
 - ✅ February 18, 2025. Release the testing code and pre-trained models of the specialist models, the testset (GT) on [Google Drive (GT)](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing), and the visual results on [Google Drive (FoundIR)](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing) and [Baidu Yun (Others)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).
 - ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive (LQ)](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
 - ✅ December 03, 2024. Release [paper](https://arxiv.org/abs/2412.01427) and [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing).
@@ -48,7 +49,7 @@ conda env create -f environment.yml
 - download the [testset](#testset--visual-results) and organize them as follows:
 
 ```
-    |--dataset   
+    |--dataset
     |    |--01Blur
     |    |    |--GT
     |    |    |    |--0001.png
@@ -98,12 +99,12 @@ python test.py --dataroot ./dataset --meta None
 **(If you have a GPU with less than 24GB, you can reduce the `crop_size` on `test.py` L102.)**
 
 #### :arrow_right: Testing the Specialist Models (Optional)
-We provide two specialist models, i.e., **Lowlight** and **Weather** models, to refine the results of the generalist model. 
+We provide two specialist models, i.e., **Lowlight** and **Weather** models, to refine the results of the generalist model.
 
-In our experiments, we refine the generalist model's outputs as follows: 
+In our experiments, we refine the generalist model's outputs as follows:
 ```
 Weather model: 0501-0700 and 1051-1100 inputs
-Lowlight model: 0701-0800, 1101-1250, and 1301-1500 inputs 
+Lowlight model: 0701-0800, 1101-1250, and 1301-1500 inputs
 ```
 
 **Please note that this is optional**, allowing you to further refine the generalist model’s outputs using the following commands, especially for challenging **lowlight, hazy, and rainy** inputs.
@@ -122,6 +123,16 @@ or
 python inference_weather.py
 ```
 And you can find the output visual results in the folder `results/`.
+
+#### :arrow_right: Evaluation Metrics
+- Install the [pyiqa](https://github.com/chaofengc/IQA-PyTorch) package. Thanks to [Chaofeng Chen](https://github.com/chaofengc).
+```
+pip install pyiqa
+```
+- Run the following command to calculate the metrics.
+```
+python cal_metrics.py --inp_imgs ./dataset/restored --gt_imgs ./dataset/GT --log ptah_save_log
+```
 
 ---
 ### :book: Dataset

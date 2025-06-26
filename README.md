@@ -2,7 +2,7 @@
   <img src="assets/logo.png" height=120>
 </p>
 
-### FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration
+### FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration [ICCV 2025]
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=House-Leo/FoundIR)[![GitHub Stars](https://img.shields.io/github/stars/House-Leo/FoundIR?style=social)](https://github.com/House-Leo/FoundIR)
 > [[Project Page](https://www.foundir.net)]  &emsp; [[Paper](https://arxiv.org/abs/2412.01427)] &emsp; [[Supplemental Material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing)] &emsp; [[中文版介绍](https://mp.weixin.qq.com/s/R_UP-hdRYS_2pKlh-Nr8JA)]
 
@@ -21,6 +21,7 @@
 <!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
+- ✅ June 26, 2025. 🎉 Our FoundIR was accepted by **ICCV 2025**! We will release the training data within a week. Stay tuned!
 - ✅ May 13, 2025. Update the script for calculating the metrics, including PSNR, SSIM, LPIPS, FID, CLIP-IQA, MANIQA, MUSIQ, NIQE, NIMA. Thanks to the awesome [pyiqa](https://github.com/chaofengc/IQA-PyTorch).
 - ✅ February 18, 2025. Release the testing code and pre-trained models of the specialist models, the testset (GT) on [Google Drive (GT)](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing), and the visual results on [Google Drive (FoundIR)](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing) and [Baidu Yun (Others)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).
 - ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive (LQ)](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
@@ -30,6 +31,28 @@
 ### ⚡ **To Do**
 - Release training dataset
 <!-- - Release testing code and pre-trained models of the specialist models -->
+
+---
+
+### :book: Dataset
+
+#### Testset & Visual Results
+
+|Methods|GT|LQ|FoundIR|
+|:-|:-:|:-:|:-:|
+|Download Link|[Google Drive](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing)|
+
+**The visual results of other compared methods can be found in [Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).**
+
+#### Training Set
+
+|Methods|GT|LQ|
+|:-|:-:|:-:|
+|Download Link|[Link](#training-set)|[Link](#training-set)|
+
+<img width="800" src="./assets/data_sample.png">
+
+**More samples can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P7-P9).**
 
 ---
 
@@ -135,23 +158,6 @@ python cal_metrics.py --inp_imgs ./dataset/restored --gt_imgs ./dataset/GT --log
 ```
 
 ---
-### :book: Dataset
-
-#### Testset & Visual Results
-
-|Methods|GT|LQ|FoundIR|
-|:-|:-:|:-:|:-:|
-|Download Link|[Google Drive](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing)|
-
-**The visual results of other compared methods can be found in [Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).**
-
-#### Training Set
-
-**Comming soon.**
-
-<img width="800" src="./assets/data_sample.png">
-
-**More samples can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P7-P9).**
 
 ### Results
 - **Quantitative Results**
@@ -162,14 +168,16 @@ python cal_metrics.py --inp_imgs ./dataset/restored --gt_imgs ./dataset/GT --log
 
 **More qualitative results can be found in the [supplemental material](https://drive.google.com/file/d/11JTb6Dqd7RlV4kItOUwsNb43EyodVJYC/view?usp=sharing) (P10-P37).**
 
+---
+
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
-@article{li2024foundir,
+@inproceedings{li2024foundir,
       title={FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration},
       author={Li, Hao and Chen, Xiang and Dong, Jiangxin and Tang, Jinhui and Pan, Jinshan},
-      journal={arXiv preprint arXiv:2412.01427},
-      year={2024}
+      booktitle={ICCV},
+      year={2025}
 }
  ```
 

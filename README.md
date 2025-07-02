@@ -21,6 +21,7 @@
 <!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
+- ✅ July, 02, 2025. Release the training code and [script](#computer-training)! 
 - ✅ June 26, 2025. 🎉 Our FoundIR was accepted by **ICCV 2025**! We will release the training data within a week. Stay tuned!
 - ✅ May 13, 2025. Update the script for calculating the metrics, including PSNR, SSIM, LPIPS, FID, CLIP-IQA, MANIQA, MUSIQ, NIQE, NIMA. Thanks to the awesome [pyiqa](https://github.com/chaofengc/IQA-PyTorch).
 - ✅ February 18, 2025. Release the testing code and pre-trained models of the specialist models, the testset (GT) on [Google Drive (GT)](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing), and the visual results on [Google Drive (FoundIR)](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing) and [Baidu Yun (Others)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).

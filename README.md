@@ -158,6 +158,14 @@ python cal_metrics.py --inp_imgs ./dataset/restored --gt_imgs ./dataset/GT --log
 ```
 
 ---
+### :computer: Training
+
+Our FoundIR is trained in two stages, please follow the steps in `train.sh` to train the model.
+```
+sh train.sh
+```
+
+---
 
 ### Results
 - **Quantitative Results**

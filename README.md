@@ -50,6 +50,8 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 
 #### Training Set
 
+**The total size of the traing set is nearly 4.85 TB. Make sure you have enough space on your hard disk to unzip the data.**
+
 |Methods|GT&LQ|
 |:-|:-:|
 |Download Link|[Request Form](https://docs.google.com/forms/d/e/1FAIpQLSfogNyffKcT_lV_eMS1r76nDFfF7mEzOsiP8SDvjVpS2-EqqQ/viewform?usp=header)|

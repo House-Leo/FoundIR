@@ -23,6 +23,7 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 <!-- ### Coming soon. -->
 
 ### 🚩 **New Features/Updates**
+- ✅ July, 07, 2025. Release the training set. Please fill out the [request form](https://docs.google.com/forms/d/e/1FAIpQLSfogNyffKcT_lV_eMS1r76nDFfF7mEzOsiP8SDvjVpS2-EqqQ/viewform?usp=header) to get the download link!
 - ✅ July, 02, 2025. Release the training code and [script](#computer-training)! 
 - ✅ June 26, 2025. 🎉 Our FoundIR was accepted by **ICCV 2025**! We will release the training data within a week. Stay tuned!
 - ✅ May 13, 2025. Update the script for calculating the metrics, including PSNR, SSIM, LPIPS, FID, CLIP-IQA, MANIQA, MUSIQ, NIQE, NIMA. Thanks to the awesome [pyiqa](https://github.com/chaofengc/IQA-PyTorch).
@@ -49,9 +50,9 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 
 #### Training Set
 
-|Methods|GT|LQ|
-|:-|:-:|:-:|
-|Download Link|[Link](#training-set)|[Link](#training-set)|
+|Methods|GT&LQ|
+|:-|:-:|
+|Download Link|[Request Form](https://docs.google.com/forms/d/e/1FAIpQLSfogNyffKcT_lV_eMS1r76nDFfF7mEzOsiP8SDvjVpS2-EqqQ/viewform?usp=header)|
 
 <img width="800" src="./assets/data_sample.png">
 

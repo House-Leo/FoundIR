@@ -9,6 +9,7 @@
 > [Hao Li*](https://house-leo.github.io/), [Xiang Chen*](https://cschenxiang.github.io/), [Jiangxin Dong](https://scholar.google.com/citations?user=ruebFVEAAAAJ&hl=zh-CN&oi=ao), [Jinhui Tang](https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN), [Jinshan Pan](https://jspan.github.io/) <br>
 > [IMAG Lab](https://imag-njust.net/), Nanjing University of Science and Technology
 
+
 Welcome to visit our website (专注底层视觉领域的信息服务平台) for low-level vision: https://lowlevelcv.com/
 
 ---
@@ -25,7 +26,7 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 ### 🚩 **New Features/Updates**
 - ✅ July, 07, 2025. Release the training set. Please fill out the [request form](https://docs.google.com/forms/d/e/1FAIpQLSfogNyffKcT_lV_eMS1r76nDFfF7mEzOsiP8SDvjVpS2-EqqQ/viewform?usp=header) to get the download link!
 - ✅ July, 02, 2025. Release the training code and [script](#computer-training)! 
-- ✅ June 26, 2025. 🎉 Our FoundIR was accepted by **ICCV 2025**! We will release the training data within a week. Stay tuned!
+- ✅ June 26, 2025. 🎉 Our FoundIR was accepted by **ICCV 2025**!
 - ✅ May 13, 2025. Update the script for calculating the metrics, including PSNR, SSIM, LPIPS, FID, CLIP-IQA, MANIQA, MUSIQ, NIQE, NIMA. Thanks to the awesome [pyiqa](https://github.com/chaofengc/IQA-PyTorch).
 - ✅ February 18, 2025. Release the testing code and pre-trained models of the specialist models, the testset (GT) on [Google Drive (GT)](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing), and the visual results on [Google Drive (FoundIR)](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing) and [Baidu Yun (Others)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).
 - ✅ February 05, 2025. Release the testing code and [pre-trained model](https://github.com/House-Leo/FoundIR/releases/download/Premodel/model-2000.pt) of the generalist model, and the testset (LQ) on [Google Drive (LQ)](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing).
@@ -33,7 +34,8 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 - ✅ November 22, 2024. Creat the repository and the [project page](https://www.foundir.net).
 
 ### ⚡ **To Do**
-- Release training dataset
+- [x] Release training code
+- [x] Release training dataset
 <!-- - Release testing code and pre-trained models of the specialist models -->
 
 ---

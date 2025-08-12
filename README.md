@@ -42,13 +42,15 @@ Welcome to visit our website (专注底层视觉领域的信息服务平台) for
 
 ### :book: Dataset
 
-#### Testset & Visual Results
+#### Testset & Visual Results (Table 1)
 
-|Benchmark|GT|LQ|FoundIR|
-|:-|:-:|:-:|:-:|
-|Download Link|[Google Drive](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing)|
+|Benchmark|GT|LQ|FoundIR|Compared methods|
+|:-|:-:|:-:|:-:|:-:|
+|Download Link|[Google Drive](https://drive.google.com/file/d/1KjRZcyA1THRzHZhX2yTGMtOdUW_wuGsI/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1wOaquAjnuzCh6Jv3CJz76mgnx4nfZgBY/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1MLSV4OPvictpKYsDdqF7LcjnIebYYNUw/view?usp=sharing)|[Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb)|
 
-**The visual results of other compared methods can be found in [Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).**
+<!-- **The visual results of other compared methods can be found in [Baidu Yun (pw: b6qb)](https://pan.baidu.com/s/1ORZVrHkgsVMymSSI4Yng-g?pwd=b6qb).** -->
+
+**The public data results of Table 2 can be found in [Baidu Yun (pw: 58vg)](https://pan.baidu.com/s/1sLchdjD-UwFGFrT5GMPGTQ?pwd=58vg).**
 
 #### Training Set
 
